@@ -1,5 +1,5 @@
 class SwiftHcpMaterial < Formula
-  desc "A command line tool for updating HCP materials."
+  desc "Command-line tool for updating HCP materials"
   homepage "https://github.com/HHE-DEV/swift-hcp-material"
   url "https://github.com/HHE-DEV/swift-hcp-material/releases/tag/0.1.0"
   sha256 "84d965fae2bd60c29ecaf94bdeb43bb65263c094bd93f35e62d894c092ae1a8b"
@@ -15,6 +15,6 @@ class SwiftHcpMaterial < Formula
   end
 
   test do
-    system "#{bin}/hcp-material-parser --version"
+    system "#{bin}/hcp-material-parser", "--version"
   end
 end
