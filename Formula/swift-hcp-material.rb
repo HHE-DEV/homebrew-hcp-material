@@ -14,7 +14,6 @@ class SwiftHcpMaterial < Formula
     (zsh_completion/"_hcp-material").write `#{bin}/hcp-material --generate-completion-script zsh`
   end
 
-
   test do
     system "#{bin}/hcp-material", "--version"
   end
