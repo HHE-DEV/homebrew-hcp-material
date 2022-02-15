@@ -5,6 +5,11 @@ class SwiftHcpMaterial < Formula
   sha256 "aab8e69285fb18c52efd5d3562b326c955e7a1ce8771c21f8eb84ef2f41cf525"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/HHE-DEV/homebrew-hcp-material/releases/download/swift-hcp-material-0.1.3"
+    sha256 cellar: :any_skip_relocation, big_sur: "449c2e49708aa5c324ea35a46780890a30908ab8605843df9756662ed62333a7"
+  end
+
   depends_on xcode: ["10.15", :build]
 
   def install
