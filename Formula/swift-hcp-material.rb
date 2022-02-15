@@ -8,6 +8,7 @@ class SwiftHcpMaterial < Formula
   bottle do
     root_url "https://github.com/HHE-DEV/homebrew-hcp-material/releases/download/swift-hcp-material-0.1.3"
     sha256 cellar: :any_skip_relocation, big_sur: "449c2e49708aa5c324ea35a46780890a30908ab8605843df9756662ed62333a7"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "b489cab7945cf06e60cf3abcd964c3143eab469eb3ed9465405fb886e7b06835"
   end
 
   depends_on xcode: ["10.15", :build]
