@@ -1,8 +1,8 @@
 class SwiftHcpMaterial < Formula
   desc "Command-line tool for updating HCP materials"
   homepage "https://github.com/HHE-DEV/swift-hcp-material"
-  url "https://github.com/HHE-DEV/swift-hcp-material/archive/refs/tags/0.1.2.tar.gz"
-  sha256 "9f0a476030c95a3ad5810dd2ce41c0fc054c62bd554ef8c82dfbbf064dd7bf48"
+  url "https://github.com/HHE-DEV/swift-hcp-material/archive/refs/tags/0.1.3.tar.gz"
+  sha256 "aab8e69285fb18c52efd5d3562b326c955e7a1ce8771c21f8eb84ef2f41cf525"
   license "MIT"
 
   depends_on xcode: ["10.15", :build]
