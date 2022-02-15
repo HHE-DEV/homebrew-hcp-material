@@ -15,6 +15,6 @@ class SwiftHcpMaterial < Formula
   end
 
   test do
-    system "#{bin}/hcp-material-parser", "--version"
+    system "#{bin}/hcp-material", "--version"
   end
 end
